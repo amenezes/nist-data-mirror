@@ -1,6 +1,5 @@
-.gradle
-.gradletasknamecache
-build/
+.travis
+*.md
 docker/data/*.json
 docker/data/*.json.gz
 docker/data/*.xml

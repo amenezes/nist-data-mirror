@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nist-data-mirror:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: nist-data-mirror
+    volumes:
+      - ./docker/data:/data
