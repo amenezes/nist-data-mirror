@@ -31,6 +31,13 @@ mvn clean package
 java -jar nist-data-mirror.jar <mirror-directory>
 ```
 
+### Docker
+
+```sh
+docker-compose up
+```
+> the destination directory in in: ./docker/data
+
 Downloading
 ----------------
 
